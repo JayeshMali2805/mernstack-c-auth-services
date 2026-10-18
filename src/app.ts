@@ -9,7 +9,7 @@ import logger from './config/logger.js'
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the Autzyh Service')
+  res.send('Welcome to the Auth Service')
 })
 
 //global error handler
